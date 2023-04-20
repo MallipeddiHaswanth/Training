@@ -1,0 +1,13 @@
+package com.Demo;
+
+abstract class Abstract {
+
+	int a, b;
+
+	static void m1(int a, int b) {
+		System.out.println(" Concerte method Values of A & B:" + a + b);
+	}
+
+	abstract void m2(int a, int b);
+
+}

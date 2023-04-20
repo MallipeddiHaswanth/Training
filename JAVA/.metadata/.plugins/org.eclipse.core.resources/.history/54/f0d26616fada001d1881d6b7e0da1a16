@@ -1,0 +1,27 @@
+package com.Demo;
+
+public class Student {
+
+	private String name;
+	 private int id;
+
+	public Student(String name, int id) {
+		super();
+		this.name = name;
+		this.id = id;
+	}
+
+	public void studentDetails(String name, int id) {
+		System.out.println("Student Details: ");
+		this.id = id;
+		this.name = name;
+		System.out.println("Id:" + " " + id + " Name " + " " + name);
+
+	}
+
+	public static void studentDetials(String name, int id, String country) {
+		System.out.println("Student Details: ");
+		System.out.println("Id:" + " " + id + " Name: " + " " + name + " Country: " + " " + country);
+
+	}
+}

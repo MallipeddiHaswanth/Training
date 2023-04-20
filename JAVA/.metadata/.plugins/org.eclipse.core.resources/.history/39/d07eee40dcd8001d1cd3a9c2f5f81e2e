@@ -1,0 +1,11 @@
+package com.day1;
+
+public class inherit2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Inhertiance1 obj1 = new Inhertiance1();
+obj1.display();
+	}
+
+}

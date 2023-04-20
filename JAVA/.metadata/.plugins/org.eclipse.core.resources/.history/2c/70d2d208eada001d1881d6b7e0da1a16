@@ -1,0 +1,19 @@
+package com.Demo;
+
+public class Student {
+
+	String item;
+	int price;
+
+//Method 1 to get price and no of items left 
+	public void stock(String item, int price) {
+		System.out.println();
+		this.item = item;
+		this.price = price;
+
+	}
+
+	public void stockAvailiblity() {
+
+	}
+}

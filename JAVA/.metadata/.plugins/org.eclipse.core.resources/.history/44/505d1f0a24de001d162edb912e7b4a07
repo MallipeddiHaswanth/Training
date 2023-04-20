@@ -1,0 +1,17 @@
+package com.Demo;
+
+public class StudentDetails_2 extends StudentDetails {
+
+	public void DisplayStudentDetials() {
+		System.out.println("------------------------");
+		this.Display2(id, name);
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StudentsDetials_2 Student_2 = new StudentsDetials_2();
+
+	}
+
+}

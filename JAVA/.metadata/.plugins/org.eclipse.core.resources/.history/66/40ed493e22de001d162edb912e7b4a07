@@ -1,0 +1,17 @@
+package com.Demo;
+
+public class StudentsDetials_2 extends StudentDetials {
+
+	public void DisplayStudentDetials() {
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student Student2 = new Student();
+		StudentDetials StudentDetials = new StudentDetials();
+
+		Student2.Display(2, "Ram");
+	}
+
+}

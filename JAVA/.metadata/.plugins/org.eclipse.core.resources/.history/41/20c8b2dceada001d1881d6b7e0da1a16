@@ -1,0 +1,19 @@
+package com.Demo;
+
+public class Student {
+
+	String name;
+	int id;
+
+//Method 1 to get price and no of items left 
+	public void studentDetails(String name, int id) {
+		System.out.println("Student Detials ");
+		this.id = id;
+		this.name = name;
+
+	}
+
+	
+
+	}
+}

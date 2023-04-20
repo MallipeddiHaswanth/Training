@@ -1,0 +1,14 @@
+
+package com.Demo;
+
+import java.util.*;
+
+public class String {
+
+	public static void main(java.lang.String[] args) {
+		// TODO Auto-generated method stub
+String name= Haswanth ;
+
+	}
+
+}

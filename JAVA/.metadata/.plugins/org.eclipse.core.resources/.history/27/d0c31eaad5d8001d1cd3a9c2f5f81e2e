@@ -1,0 +1,20 @@
+package com.day1;
+
+public class Constructor {
+	static int a = 10;
+	String sr = "Haswanth";
+
+	public Constructor() {
+	}
+
+	public Constructor(String rs) {
+		super();
+		this.sr = rs;
+	}
+
+	public static void main(String[] args) {
+		Constructor obj1 = new Constructor();
+
+	}
+
+}

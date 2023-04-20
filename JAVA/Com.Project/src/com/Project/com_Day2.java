@@ -1,0 +1,15 @@
+package com.Project;
+
+// Inhertiance  
+public class com_Day2 { // Parent Class or Base class Super class
+	protected String brand = "BMW"; // the code is accesible in the same package and subclasses .
+
+	public void m1() {
+		System.out.println("Car :" + " " + brand);
+	}
+
+	public void m1(String a) { //method overloading 
+		this.brand = a;
+		System.out.println(a);
+	}
+}

@@ -1,0 +1,11 @@
+package com.Demo;
+
+import java.util.*;
+
+public class Lists {
+
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<Integer>();
+		
+
+}

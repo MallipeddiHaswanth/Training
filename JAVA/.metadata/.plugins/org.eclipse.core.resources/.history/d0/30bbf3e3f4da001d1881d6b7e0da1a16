@@ -1,0 +1,17 @@
+package com.Demo;
+
+public class Class2  extends  Abstract{
+
+	@Override
+	void m2() {
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	
+	}
+
+}

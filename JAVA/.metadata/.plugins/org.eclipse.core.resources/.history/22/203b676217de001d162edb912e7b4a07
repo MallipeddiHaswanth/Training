@@ -1,0 +1,11 @@
+package com.Demo;
+
+public class StudentsDetials_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student Student2 = new Student();
+		System.out.println(Student2.Display(0, null));
+	}
+
+}

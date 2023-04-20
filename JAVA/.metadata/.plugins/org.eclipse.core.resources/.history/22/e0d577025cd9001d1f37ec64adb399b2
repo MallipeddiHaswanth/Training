@@ -1,0 +1,35 @@
+package com.day1;
+
+public class Methods {
+
+	public void findgreater(int a, int b) {
+		System.out.println("Enter values of a ,b");
+		System.out.println("value of a:" + a + " Value of b: " + b);
+
+		if (a <= b) {
+			System.out.println(a + " " + "A value less than B value " + b);
+		} else {
+			System.out.println("B Value :" + b + "is less than A value:" + a);
+
+		}
+	}
+
+	public static void findEvenOdd(int num) {
+
+		// method body
+		if (num % 2 == 0)
+			System.out.println(num + " is even");
+		else
+			System.out.println(num + " is odd");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		findEvenOdd(98);
+		Methods obj1 = new Methods();
+		obj1.findgreater(30, 20);
+
+	}
+
+}

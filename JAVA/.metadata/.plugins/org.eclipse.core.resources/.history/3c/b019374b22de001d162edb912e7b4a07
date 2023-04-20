@@ -1,0 +1,25 @@
+package com.Demo;
+
+class StudentDetials extends Student {
+
+	public void Display2(int id, String name, String clg) {
+this.id= id;
+this.name =name;
+this.clg=clg;
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student Student_1 = new Student();
+		Student_1.Display(1, "Haswanth");
+
+		/*
+		 * Student_1.id = 1; Student_1.name = "Haswanth";
+		 */
+
+		// System.out.println(Student_1.id + " , " + Student_1.name + " , " +
+		// Student.clg);
+
+	}
+}

@@ -1,0 +1,12 @@
+package com.Project;
+
+public class Com_Day2inherited extends com_Day2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Com_Day2inherited car1 = new Com_Day2inherited();
+		car1.m1();
+	}
+
+}

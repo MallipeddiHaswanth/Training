@@ -1,0 +1,16 @@
+package com.day1;
+
+public class inherit2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Inhertiance1 obj1 = new Inhertiance1();
+		Inhertiance1 obj2 = new Inhertiance1(1, "Haswanth", "Mallipeddi ", null);
+		Inhertiance1 obj3 = new Inhertiance1(2, "Ram", " Ram ", null);
+
+		obj1.display();
+		obj2.display();
+
+	}
+
+}

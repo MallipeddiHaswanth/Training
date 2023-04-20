@@ -1,0 +1,17 @@
+package com.Demo;
+
+public class Student {
+
+	// private
+	String name;
+	int id;
+
+	public void studentDetails(String name, int id) {
+		System.out.println("Student Details: ");
+		this.id = id;
+		this.name = name;
+		System.out.println("Id:" + " " + id + " Name " + " " + name);
+
+	}
+
+}

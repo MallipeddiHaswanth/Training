@@ -1,0 +1,16 @@
+package com.day1;
+
+public class Constructor {
+	static int a = 10;
+	String sr = "Haswanth";
+
+	public static void main(String[] args) {
+		// System.out.println(a);
+
+		Constructor obj1 = new Constructor();
+		obj1.sr = "Mallipeddi";
+
+		System.out.println(obj1.sr);
+	}
+
+}

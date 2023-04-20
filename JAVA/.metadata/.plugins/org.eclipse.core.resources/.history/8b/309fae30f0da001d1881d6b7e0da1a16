@@ -1,0 +1,12 @@
+package com.Demo;
+
+public class Student1 {
+
+	public static void main(String args[]) {
+		Student obj1 = new Student();
+		Student obj2 = new Student();
+		obj1.studentDetails("R", 1);
+		obj2.studentDetails("A", 2);
+		obj2.studentDetails('M', 3);
+	}
+}

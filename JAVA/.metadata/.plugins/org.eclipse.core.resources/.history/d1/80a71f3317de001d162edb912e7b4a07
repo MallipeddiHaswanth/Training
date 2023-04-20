@@ -1,0 +1,11 @@
+package com.Demo;
+
+public class StudentDetials {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student Student_1 = new Student();
+		Student_1.Display(1, "Haswanth");
+	}
+
+}

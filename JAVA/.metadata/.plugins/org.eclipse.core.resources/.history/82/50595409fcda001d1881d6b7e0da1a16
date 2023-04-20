@@ -1,0 +1,24 @@
+package com.Demo;
+
+public class Constructor {
+	int id = 100;
+	String name = "Haswanth";
+
+	Constructor(int a, String b) {
+		
+	}
+
+	public void display() {
+		System.out.println("Student name:" + " " + name + " " + "Student Id is :" + " " + id);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Constructor obj = new Constructor(0, null);
+
+		obj.display();
+		// System.out.println(obj.a);
+
+	}
+
+}

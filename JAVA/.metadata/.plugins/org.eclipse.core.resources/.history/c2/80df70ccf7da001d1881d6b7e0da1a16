@@ -1,0 +1,22 @@
+package com.Demo;
+
+public class Constructor {
+	int a = 100;
+	String name = "Haswanth";
+
+	public Constructor() {
+	}
+
+	public Constructor(int a, String name) {
+		super();
+		this.a = a;
+		this.name = name;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Constructor obj = new Constructor();
+		System.out.println(obj.a);
+	}
+
+}

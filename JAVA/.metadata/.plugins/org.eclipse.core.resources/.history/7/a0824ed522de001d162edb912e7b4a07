@@ -1,0 +1,22 @@
+package com.Demo;
+
+class StudentDetials extends Student {
+
+	public void Display2(int id, String name) {
+		System.out.println("Displaying from Parent Class:");
+		this.Display(id, name);
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student Student_1 = new Student();
+		Student_1.Display(1, "Haswanth");
+
+		
+
+		// System.out.println(Student_1.id + " , " + Student_1.name + " , " +
+		// Student.clg);
+
+	}
+}

@@ -1,0 +1,16 @@
+package com.day1;
+
+public class Strings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String sr = "Hello";
+		String rs = "World!";
+
+		System.out.println(sr);
+		System.out.println(sr.length()); // length
+		System.out.println(sr.concat(rs)); // concat
+		System.out.println(sr.equals(rs));
+	}
+
+}

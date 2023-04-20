@@ -1,0 +1,22 @@
+package com.Project;
+
+public class com_Day1 {
+
+                                          // Encapsulation
+	private int id;                       // private, we cannot access it from outside this class:
+	private String name;
+
+	public int getId() {
+
+		return id;
+	}
+
+	public void setId(String newName) {
+		this.name = newName;
+	}
+
+	public static void main(String args[]){
+
+	 Student student_1 = new Student();
+
+}

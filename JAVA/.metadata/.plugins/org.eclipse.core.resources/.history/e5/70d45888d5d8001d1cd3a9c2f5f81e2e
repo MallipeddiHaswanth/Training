@@ -1,0 +1,19 @@
+package com.day1;
+
+public class Constructor {
+	static int a = 10;
+	String sr;
+
+	
+
+	public Constructor() {
+	}
+
+	public static void main(String[] args) {
+		Constructor obj1 = new Constructor();
+		Constructor obj2 = new Constructor();
+		System.out.println(obj1.sr);
+		System.out.println(obj2.sr);
+	}
+
+}

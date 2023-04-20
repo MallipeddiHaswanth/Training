@@ -1,0 +1,11 @@
+package com.day1;
+
+public class ArraysList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int Array[]= {1,2,3,4,};
+System.out.println(Array[0]);
+	}
+
+}

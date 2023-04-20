@@ -1,0 +1,17 @@
+package com.Demo;
+
+public class Student1 {
+
+	public static void main(String args[]) {
+		Student obj1 = new Student();
+		// Student obj2 = new Student();
+		obj1.id = 10;
+
+		obj1.studentDetails("R", 1);
+		obj1.studentDetails("A", 2);
+		obj1.studentDetails("M", 3);
+
+		// studentDetials("Haswanth", 19, "India");
+		System.out.println();
+	}
+}

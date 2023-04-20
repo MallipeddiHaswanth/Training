@@ -1,0 +1,15 @@
+package com.Demo;
+
+import java.util.*;
+
+public class Lists {
+
+	public static void main(String[] args) {
+		List<> list = new ArrayList<>();
+		list.add("h");
+		list.add("a");
+		list.add("s");
+		list.add("w");
+	}
+
+}

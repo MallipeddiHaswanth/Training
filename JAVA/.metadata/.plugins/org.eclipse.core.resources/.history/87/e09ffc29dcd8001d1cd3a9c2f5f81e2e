@@ -1,0 +1,12 @@
+package com.day1;
+
+public class Inhertiance1 {
+	int roll_no;
+	String name, lname;
+	String course = "Bachelors";
+
+	public void display() {
+		System.out.println(roll_no + name + lname + course);
+	}
+
+}
