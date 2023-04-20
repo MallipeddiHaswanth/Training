@@ -7,14 +7,15 @@ public class Com_Day1 {
 	String name;
 
 	public Com_Day1() {
-		System.out.println("Default constructor ");
+		System.out.println("Default constructor : ");
+		System.out.println("Default ");
 	}
 
 	public Com_Day1(int id, String name) {
 		super();
 		this.id = id;
 		this.name = name;
-		System.out.println(id +" " + name);
+		System.out.println(id + " " + name);
 	}
 
 	public static void main(String args[]) {
