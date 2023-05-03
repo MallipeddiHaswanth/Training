@@ -11,6 +11,7 @@ public class inherit2 {
 		obj1.display();
 		obj2.display();
 		obj3.display();
+	sysout
 	}
 
 }
